@@ -1,0 +1,248 @@
+html {
+    font-family: 'Muller';
+}
+
+body {
+    background-color: #F1F1F1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.up {
+    display: flex;
+    width: 1170px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.navbar {
+    display: flex;
+    border-radius: 15px;
+    background-color: white;
+    padding: 31px;
+    width: 1170px;
+    margin: 10px;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.lk_btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #CC9933;
+}
+
+.border_btn {
+    border: 1px solid #CC9933;
+    border-radius: 10px;
+    color: #CC9933;
+    padding: 13px 20px 13px 20px;
+    margin: 10px;
+}
+
+.divs {
+    width: 1170px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+h2 {
+    text-align: left;
+}
+
+.card1 {
+    background-image: url('./img/2da408520c2eea2487e7223690babe1769d0f4d7.jpg');
+    height: 240px;
+    width: 573px;
+}
+
+.card2 {
+    background-image: url('img/7927d1a807da84d24790db6cd61f137d16e0d811.jpg');
+    height: 258px;
+    width: 573px;
+}
+
+.card3 {
+    background-image: url('img/a55bf2b817bddc6691ba7ff9b1a394bb1d05a9a0.png');
+    Width: 573px;
+    Height: 540px;
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.right {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.left {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.flex article {
+    display: flex;
+    padding: 20px;
+    background-size: cover;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_card {
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 40PX;
+}
+
+P {
+    font-size: 20px
+}
+
+.more {
+    color: #CC9933;
+}
+
+#onas {
+    text-align: left;
+}
+
+article {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.flex2 {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 60%);
+    gap: 20px;
+}
+
+.flex2 img {
+    width: 100%;
+}
+
+h3 {
+    color: #CC9933;
+}
+
+.flex3 {
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-template-rows: repeat(2, 60%);
+    gap: 20px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.flex3 img {
+    margin: 20px;
+    text-align: center;
+}
+
+.flex3 p {
+    text-align: left;
+    margin: 10px;
+}
+
+.flex4 {
+    display: grid;
+    grid-template-columns: repeat(3, 35%);
+    grid-template-rows: repeat(3, 40%);
+    gap: 20px;
+    justify-items: center;
+    justify-content: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+article .right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex4 article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: baseline;
+}
+
+.win {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 95px;
+    gap: 20px;
+    margin-top: 167px;
+    padding: 10px;
+}
+
+.con_win {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 1120px;
+}
+
+.text {
+    border-bottom: 1px solid black;
+    margin: 20px;
+}
+
+footer {
+    background-color: #333333;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 50px;
+}
